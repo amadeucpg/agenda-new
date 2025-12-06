@@ -1,7 +1,7 @@
 <?php
 include_once("templates/header.php");
 ?>
-<a href="search.php">search</a>
+
 <div class="container">
   <?php if (isset($printMsg) && $printMsg != ''): ?>
     <p id="msg"><?= $printMsg ?></p>
